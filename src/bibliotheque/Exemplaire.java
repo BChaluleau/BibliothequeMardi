@@ -16,6 +16,10 @@ public class Exemplaire {
 		return empruntable;
 	}
 
+	public boolean isConsultableEnLigne() {
+		return consultableEnLigne;
+	}
+
 	public String getCote() {
 		return cote;
 	}
